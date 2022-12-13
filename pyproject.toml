@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "python-task"
+version = "0.1.0"
+description = "Python package to distribute go-task runner"
+authors = ["נυαη נυαηѕση <john@dewey.ws>"]
+readme = "README.md"
+packages = [{include = "python_task"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
